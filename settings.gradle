@@ -1,0 +1,5 @@
+rootProject.name = 'pos-system-app'
+
+include 'customer-service'
+include 'sales-service'
+include 'inventory-service'
