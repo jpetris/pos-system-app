@@ -1,0 +1,49 @@
+---------------
+> ACTORS
+---------------
+- Driver
+	- Cashier
+	- Manager
+
+- Driven
+	- IMS
+	- CRM
+	- PPS
+
+
+---------------
+> PORTS
+---------------
+- Driver
+	Cashier
+	- for making sales
+	- for registering customers info (CRUD)
+
+	Manager
+	* same as cashier
+	- for canceling sales
+	- for hiring employees
+	- for firing employees
+	- for updating employees info
+	- for registering products information (CRUD)
+
+- Driven
+	IMS
+	- for querying products
+	- for adding products
+	- for removing products
+	- for updating products
+	- for updating inventory
+
+	CRM
+	- for checking customer existance
+	- for adding a new customer
+	- for removing an existing customer
+	- for updating an existing customer
+
+
+
+---------------
+> ADAPTERS
+---------------
+
